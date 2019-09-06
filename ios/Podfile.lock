@@ -1,0 +1,216 @@
+PODS:
+  - AMap3DMap (6.9.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.7)
+  - AMapLocation (2.6.2):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (6.5.0):
+    - AMapFoundation (~> 1.4)
+  - Base64 (1.1.2)
+  - boost-for-react-native (1.63.0)
+  - CodePush (5.6.0):
+    - Base64 (~> 1.1)
+    - JWT (~> 3.0.0-beta.7)
+    - React
+    - SSZipArchive (~> 2.1)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - JWT (3.0.0-beta.11):
+    - Base64 (~> 1.1.2)
+  - QBImagePickerController (3.4.0)
+  - React (0.59.5):
+    - React/Core (= 0.59.5)
+  - react-native-amap-geolocation (0.3.2):
+    - AMapLocation (~> 2.6.0)
+    - React
+  - react-native-amap3d (1.1.0):
+    - AMap3DMap
+    - AMapSearch (~> 6.5.0)
+    - React
+  - react-native-background-upload (5.1.0):
+    - React
+  - react-native-fast-image (6.0.0):
+    - React
+    - SDWebImage (~> 5.0)
+  - react-native-pdf (5.1.0):
+    - React
+  - React/Core (0.59.5):
+    - yoga (= 0.59.5.React)
+  - React/CxxBridge (0.59.5):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.5):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.5):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.5)
+  - React/jsi (0.59.5):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.5):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.5)
+  - React/RCTBlob (0.59.5):
+    - React/Core
+  - React/RCTImage (0.59.5):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.59.5):
+    - React/Core
+  - React/RCTText (0.59.5):
+    - React/Core
+  - React/RCTWebSocket (0.59.5):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativeExceptionHandler (2.10.7):
+    - React
+  - ReactNativePermissions (1.1.1):
+    - React
+  - rn-fetch-blob (0.10.6):
+    - React/Core
+  - RNImageCropPicker (0.24.1):
+    - QBImagePickerController
+    - React/Core
+    - RSKImageCropper
+  - RNOpenAppSettings (1.0.0):
+    - React
+  - RNShare (1.2.1):
+    - React
+  - RNVectorIcons (6.6.0):
+    - React
+  - RSKImageCropper (2.2.2)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SSZipArchive (2.2.2)
+  - yoga (0.59.5.React)
+
+DEPENDENCIES:
+  - CodePush (from `../node_modules/react-native-code-push`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-amap-geolocation (from `../node_modules/react-native-amap-geolocation/lib/ios`)
+  - react-native-amap3d (from `../node_modules/react-native-amap3d/lib/ios`)
+  - react-native-background-upload (from `../node_modules/react-native-background-upload`)
+  - react-native-fast-image (from `../node_modules/react-native-fast-image`)
+  - react-native-pdf (from `../node_modules/react-native-pdf`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativeExceptionHandler (from `../node_modules/react-native-exception-handler`)
+  - ReactNativePermissions (from `../node_modules/react-native-permissions`)
+  - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
+  - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
+  - RNOpenAppSettings (from `../node_modules/react-native-app-settings`)
+  - RNShare (from `../node_modules/react-native-share`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - Base64
+    - boost-for-react-native
+    - JWT
+    - QBImagePickerController
+    - RSKImageCropper
+    - SDWebImage
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  CodePush:
+    :path: "../node_modules/react-native-code-push"
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-amap-geolocation:
+    :path: "../node_modules/react-native-amap-geolocation/lib/ios"
+  react-native-amap3d:
+    :path: "../node_modules/react-native-amap3d/lib/ios"
+  react-native-background-upload:
+    :path: "../node_modules/react-native-background-upload"
+  react-native-fast-image:
+    :path: "../node_modules/react-native-fast-image"
+  react-native-pdf:
+    :path: "../node_modules/react-native-pdf"
+  ReactNativeExceptionHandler:
+    :path: "../node_modules/react-native-exception-handler"
+  ReactNativePermissions:
+    :path: "../node_modules/react-native-permissions"
+  rn-fetch-blob:
+    :path: "../node_modules/rn-fetch-blob"
+  RNImageCropPicker:
+    :path: "../node_modules/react-native-image-crop-picker"
+  RNOpenAppSettings:
+    :path: "../node_modules/react-native-app-settings"
+  RNShare:
+    :path: "../node_modules/react-native-share"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AMap3DMap: c80b264f08f179d9b0949b84c65fc1a51dec9d6f
+  AMapFoundation: 216d58448c80356434ac4332250a8fdb2f5c4d1e
+  AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
+  AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  CodePush: 300e90b3481fa82569090406165b83745de3613a
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  React: 90adac468c7b72bf1fa6c64bf230650f851a8388
+  react-native-amap-geolocation: daacfe52bb072bf5061baafaed08b0cbc19874b6
+  react-native-amap3d: 99c2ba69c803c0eb5ccf870512ee62ab54406578
+  react-native-background-upload: 042f5853b4931a2e4b496bddd84a7dfdd411db76
+  react-native-fast-image: 2fd0d5a88fd396cbb908c4307fe9f50c62be4163
+  react-native-pdf: 8cc276fd8ab7dff6b602eb65fcf0f6c145c0f524
+  ReactNativeExceptionHandler: 5e46d98b0a1f5acabeac64a3613ff1f345e71b30
+  ReactNativePermissions: b64e084dff6a5cad51587d38c306f09246246384
+  rn-fetch-blob: 766f85cabd2992300dfa1be2bc9e4e258abc6f04
+  RNImageCropPicker: 6134b66a3d5bc13e2895a97c630a4254006902b4
+  RNOpenAppSettings: 1169b90a275e9e18c5973e1608949f97d426e7f3
+  RNShare: 48cf88cadf9ca2143cdaa557c1ec7f8808040ffc
+  RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
+  RSKImageCropper: 05e3b82a18da83ea3c2b7bffa7f2199a621d6802
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  yoga: 2e571f113e8cbeb0eb752aeebc86c1bfe7a8200c
+
+PODFILE CHECKSUM: 55259a929dd4b5d07ea15bc13c80cdb7e9586f0c
+
+COCOAPODS: 1.7.5

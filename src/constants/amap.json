@@ -1,0 +1,9 @@
+{
+  "key": {
+    "ios": "fbbc77c5724302ac589c82fd72054708",
+    "android": "529ed92b6de5cdb05ca291a83d2bcc4b"
+  },
+  "radius":50000,
+  "webKey": "4390d4ccaa8df203783e767136960921",
+  "poiSearchOffset": 6
+}
